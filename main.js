@@ -10,7 +10,7 @@ function preload(){
 function setup() {
   createCanvas(screenX, screenY);
   background(100);
-  room = new Room(`rgb(100, 100, 100)`, `rgb(0, 0, 0)`);
+  room = new Room(`rgb(59, 218, 239)`, `rgb(222,184,135)`);
 }
 
 function draw() {
