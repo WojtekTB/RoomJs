@@ -4,17 +4,18 @@ var room;
 
 var img;
 function preload(){
-  img = loadImage('dino.png'); // Load the image
+  // img = loadImage('dino.png'); // Load the image
 }
 
 function setup() {
   createCanvas(screenX, screenY);
   background(100);
   room = new Room(`rgb(59, 218, 239)`, `rgb(222,184,135)`);
+  testPerson = new Person(100, 100, `rgb(255, 0, 0)`, "Jared");
 }
 
 function draw() {
   // image(img, 0, 0);
   room.show();
-
+  testPerson.show();
 }
